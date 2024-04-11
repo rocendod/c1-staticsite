@@ -1,0 +1,18 @@
+body {
+    font-family: 'Cascadia Code', monospace;
+    background: #0c0d0c;
+    padding: 0 40px;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+}
+
+.navstyle {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.navstyle:hover {
+    color: aquamarine;
+}
