@@ -4,7 +4,8 @@ body {
     padding: 0 40px;
     color: whitesmoke;
     text-align: center;
-    margin: auto;
+    align-content: center;
+    margin: 0;
 }
 
 .navstyle {
@@ -15,4 +16,44 @@ body {
 
 .navstyle:hover {
     color: aquamarine;
+}
+
+header {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(101, 170, 147);
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.image-container {
+    margin-top: 20px;
+    background-color: #0c0d0c;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.other-details {
+    margin-top: 10px;
+}
+
+.about-text {
+ margin-left: 200px;
+ margin-right: 200px;
+ font-size: 1.6em;
+ color: rgb(101, 170, 147);
 }

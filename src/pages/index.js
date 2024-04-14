@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import "../styles.css"
+import myImage from "/src/images/Ship.svg"
 
 const pageStyles = {
   color: "#232129",
@@ -182,14 +183,25 @@ const HomePage = () => {
     <main>
       <header>
             <nav className="navstyle">
-            <Link className="navstyle" to="newpage">Go to New Page</Link>
+            <Link className="navstyle" to="newpage">Go to About Page</Link>
             </nav>
             <h1>Prisma Starship CO.</h1>
         </header>
 
         <body>
-        <p>This is a new page in my Gatsby site.</p>
+        <p>This is a new page in my Gatsby site centered aorund my fictitious starship manufacturing company.</p>
+        <div className="card">
+          <div className="image-container">
+            <img src={myImage} alt="" />
+          </div>
+          <div className="details">
+            <div className="name"><b>Name:</b> Epsilon X-9</div>
+            <div className="distance"><b>Distance from Earth:</b> 274 light years</div>
+            <div className="other-details">Epsilon X-9 created in the year 2055, was set off on a mission to discover hidden planets in the our solar system.</div>
+          </div>
+        </div>
         </body>
+
     </main>
   )
 }
